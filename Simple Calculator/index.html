@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h2>SIMPLE CALCULATOR</h2>
+        <div class="form-square">
+            
+        <form name = "calculaor">
+            <div class="form-content"> 
+                <input type="text" name="display" id="inputText">
+
+            </div>
+        
+        <div class="functions">
+            <input type="button" class="operator" name="add" value="+" onclick="calculator.display.value += '+'">
+            <input type="button" class="operator" name="min" value="-" onclick="calculator.display.value += '-'">
+            <input type="button" class="operator" name="multi" value="*" onclick="calculator.display.value += '*'">
+            <input type="button" class="operator" name="sq" value="x^2" onclick="calculator.display.value += '^'">
+            <input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'">
+            <input type="button" class="operator" name="percent" value="%" onclick="calculator.display.value += '%'">
+            <input type="button" class="operator" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+        </form>
+          <!-- <script src="./main.js"></script> -->
+
+        </div>
+        </div>
+    </header>
+
+</body>
+
+</html>

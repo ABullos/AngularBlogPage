@@ -1,0 +1,38 @@
+html {
+    margin: 0px;
+    width: 100;
+    font-family:'Courier New', Courier, monospace;
+
+}
+body {
+    margin: 0px;
+    top: 0;
+    bottom: 0;
+   background-color: #fef4e8;
+   padding-left: 40%;
+   padding-right: 35%
+}
+
+.form-square {
+    background-color: purple;
+    border-radius: 5px;
+    padding: 30px ;
+    padding-left: 85px;
+    padding-right: 5px;
+    
+
+}
+.form-content-text {
+    padding: 2px 55px 25px 95px;
+
+}
+.functions {
+    padding: 15px;
+    background-color: rosybrown;
+   
+}
+.operator {
+    padding: 25px 25px 25px 25px;
+    margin: 5px 5px 5px 5px;
+    align-content: center;
+}

@@ -1,0 +1,6 @@
+{
+    "compileOptions": {
+        "target": "esnext":,
+
+    }
+}
